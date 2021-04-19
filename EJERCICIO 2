@@ -1,0 +1,8 @@
+public void Dibujo (Graphics g){
+    
+    int x []={142,110,190}; //puntos en X
+    int y []={50,100,100}; // puntos en Y
+    
+    g.drawPolygon(x, y, 3); // dibujar el triango
+} 
+}
